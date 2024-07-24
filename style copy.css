@@ -1,0 +1,43 @@
+.itemOne{
+ background-color: dodgerblue;
+}
+
+.itemTwo{
+ background-color: gray
+}
+
+.boxOne{
+ background-color: darkcyan;
+}
+
+.boxTwo{
+ background-color: burlywood;
+}
+
+.boxThree{
+ background-color: chartreuse;
+}
+
+.boxFour{
+ background-color: darkgray;
+}
+
+.box3_5{
+ background-color: rgba(250, 235, 215, 0.701);
+}
+
+
+/* media query, css condition codes */
+/* min-width < unit measurement */
+/* max-width >= unit measurment */
+@media (min-width:600px) {
+ .itemOne{ 
+  background-color: green;
+ }
+}
+
+@media (max-width: 950px) {
+ .itemOne{
+  background-color: dodgerblue;
+ }
+}
